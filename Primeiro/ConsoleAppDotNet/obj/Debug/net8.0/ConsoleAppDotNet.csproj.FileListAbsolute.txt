@@ -1,0 +1,14 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\bin\Debug\net8.0\ConsoleAppDotNet.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\bin\Debug\net8.0\ConsoleAppDotNet.deps.json
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\bin\Debug\net8.0\ConsoleAppDotNet.runtimeconfig.json
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\bin\Debug\net8.0\ConsoleAppDotNet.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\bin\Debug\net8.0\ConsoleAppDotNet.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\refint\ConsoleAppDotNet.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ConsoleAppDotNet.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Primeiro\ConsoleAppDotNet\obj\Debug\net8.0\ref\ConsoleAppDotNet.dll

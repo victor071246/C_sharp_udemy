@@ -1,0 +1,7 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\bin\Debug\MetodoConstrutor.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodoConstrutor\obj\Debug\MetodoConstrutor.pdb

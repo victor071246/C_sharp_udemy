@@ -1,0 +1,7 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\bin\Debug\MetodosDasClasses.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\bin\Debug\MetodosDasClasses.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\bin\Debug\MetodosDasClasses.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\obj\Debug\MetodosDasClasses.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\obj\Debug\MetodosDasClasses.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\obj\Debug\MetodosDasClasses.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\MetodosDasClasses\obj\Debug\MetodosDasClasses.pdb

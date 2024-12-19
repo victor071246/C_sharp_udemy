@@ -1,0 +1,7 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\bin\Debug\ClassesObjetos.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\bin\Debug\ClassesObjetos.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\bin\Debug\ClassesObjetos.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\obj\Debug\ClassesObjetos.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\obj\Debug\ClassesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\obj\Debug\ClassesObjetos.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\POO\ClassesObjetos\obj\Debug\ClassesObjetos.pdb

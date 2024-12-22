@@ -39,10 +39,10 @@
             this.checkCasa = new System.Windows.Forms.CheckBox();
             this.checkVeiculo = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioM = new System.Windows.Forms.RadioButton();
-            this.radioF = new System.Windows.Forms.RadioButton();
             this.radioOutro = new System.Windows.Forms.RadioButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.radioF = new System.Windows.Forms.RadioButton();
+            this.radioM = new System.Windows.Forms.RadioButton();
+            this.aa = new System.Windows.Forms.ListBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
@@ -101,7 +101,7 @@
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(360, 67);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(6);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(519, 31);
             this.txtNome.TabIndex = 4;
@@ -111,7 +111,7 @@
             // 
             this.txtData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtData.Location = new System.Drawing.Point(360, 125);
-            this.txtData.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtData.Margin = new System.Windows.Forms.Padding(6);
             this.txtData.Name = "txtData";
             this.txtData.Size = new System.Drawing.Size(519, 31);
             this.txtData.TabIndex = 5;
@@ -122,7 +122,7 @@
             this.comboEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboEstado.FormattingEnabled = true;
             this.comboEstado.Location = new System.Drawing.Point(360, 183);
-            this.comboEstado.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.comboEstado.Margin = new System.Windows.Forms.Padding(6);
             this.comboEstado.Name = "comboEstado";
             this.comboEstado.Size = new System.Drawing.Size(200, 33);
             this.comboEstado.TabIndex = 6;
@@ -132,7 +132,7 @@
             // 
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone.Location = new System.Drawing.Point(360, 241);
-            this.txtTelefone.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(6);
             this.txtTelefone.Mask = "(00) 00000-0000";
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(200, 31);
@@ -171,16 +171,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sexo:";
             // 
-            // radioM
+            // radioOutro
             // 
-            this.radioM.AutoSize = true;
-            this.radioM.Location = new System.Drawing.Point(6, 46);
-            this.radioM.Name = "radioM";
-            this.radioM.Size = new System.Drawing.Size(137, 29);
-            this.radioM.TabIndex = 0;
-            this.radioM.TabStop = true;
-            this.radioM.Text = "Masculino";
-            this.radioM.UseVisualStyleBackColor = true;
+            this.radioOutro.AutoSize = true;
+            this.radioOutro.Location = new System.Drawing.Point(6, 148);
+            this.radioOutro.Name = "radioOutro";
+            this.radioOutro.Size = new System.Drawing.Size(88, 29);
+            this.radioOutro.TabIndex = 2;
+            this.radioOutro.TabStop = true;
+            this.radioOutro.Text = "Outro";
+            this.radioOutro.UseVisualStyleBackColor = true;
             // 
             // radioF
             // 
@@ -193,25 +193,25 @@
             this.radioF.Text = "Feminino";
             this.radioF.UseVisualStyleBackColor = true;
             // 
-            // radioOutro
+            // radioM
             // 
-            this.radioOutro.AutoSize = true;
-            this.radioOutro.Location = new System.Drawing.Point(6, 148);
-            this.radioOutro.Name = "radioOutro";
-            this.radioOutro.Size = new System.Drawing.Size(88, 29);
-            this.radioOutro.TabIndex = 2;
-            this.radioOutro.TabStop = true;
-            this.radioOutro.Text = "Outro";
-            this.radioOutro.UseVisualStyleBackColor = true;
+            this.radioM.AutoSize = true;
+            this.radioM.Location = new System.Drawing.Point(6, 46);
+            this.radioM.Name = "radioM";
+            this.radioM.Size = new System.Drawing.Size(137, 29);
+            this.radioM.TabIndex = 0;
+            this.radioM.TabStop = true;
+            this.radioM.Text = "Masculino";
+            this.radioM.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // aa
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(47, 515);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(951, 179);
-            this.listBox1.TabIndex = 11;
+            this.aa.FormattingEnabled = true;
+            this.aa.ItemHeight = 25;
+            this.aa.Location = new System.Drawing.Point(47, 515);
+            this.aa.Name = "aa";
+            this.aa.Size = new System.Drawing.Size(951, 179);
+            this.aa.TabIndex = 11;
             // 
             // btnCadastrar
             // 
@@ -248,7 +248,7 @@
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.aa);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkVeiculo);
             this.Controls.Add(this.checkCasa);
@@ -261,7 +261,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "lista";
             this.Text = "Cadastro";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -288,7 +288,7 @@
         private System.Windows.Forms.RadioButton radioOutro;
         private System.Windows.Forms.RadioButton radioF;
         private System.Windows.Forms.RadioButton radioM;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox aa;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnLimpar;

@@ -16,7 +16,7 @@ namespace SistemaCadastro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lista());
+            Application.Run(new Form1());
         }
     }
 }

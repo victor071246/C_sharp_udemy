@@ -146,6 +146,23 @@ namespace ManipularString
 
             //label1.Text = nome.CompareTo(nome2).ToString(); // retorna um inteiro de acordo com a ordem alfabética, -1 se vem depois e 1 se vem antes
             #endregion
+
+            decimal valor = 19.95m;
+            int temp = 32;
+
+            //string s = String.Format("O valor do produto é {0:N1} e a temperatura é {1}", valor, temp);
+            //Para formatar com R$ é só colocar ao invés de N, o valor C
+
+            //string s = String.Format("Hoje é {0:d} e são {1:t}", DateTime.Now);
+
+            //Formatação de data ^^^^^^^^^ d de Date e t de Time
+            //D e T maiúsculo servem para colocar tudo completo
+
+            //string s = $"O valor do produto é {valor:C4} e a temperatura é {temp}";
+
+            string s = $"Data: {DateTime.Now:D} e hora {DateTime.Now:T}";
+
+            label1.Text = s;
         }
     }
 }

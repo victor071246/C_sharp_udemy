@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\bin\Debug\Colecoes.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\bin\Debug\Colecoes.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\bin\Debug\Colecoes.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Colecoes\Colecoes\obj\Debug\Colecoes.pdb

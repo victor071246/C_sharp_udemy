@@ -33,6 +33,7 @@ namespace Colecoes
             nomes2.Add("Lucas");
             nomes2.Add("Beatriz");
             nomes2.AddRange(nomes);
+            string item = nomes2[3];
 
             //if (nomes2.Remove("Lucas")) 
             //{
@@ -70,6 +71,56 @@ namespace Colecoes
                 lista.Items.Add(nome);
             }
 
+        }
+
+        private void btnHashSet_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            HashSet<string> veiculos;
+            veiculos = new HashSet<string>()
+            {
+                "Carro",
+                "Moto",
+                "Avião",
+                "Helicóptero",
+                "Barco"
+            };
+
+            //MessageBox.Show(veiculos.ElementAt(2));
+
+
+            //if (veiculos.Add("Cavalo"))
+            //{
+            //    MessageBox.Show("Item adicionado");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Item não adicionado");
+            //}
+
+            //if (veiculos.Contains("Carro"))
+            //{
+            //    MessageBox.Show("Contém");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Não contém");
+            //}
+
+            //veiculos.Contains("");
+            //veiculos.Count();
+            //veiculos.Remove("");
+            //veiculos.Clear();
+            //MessageBox.Show(veiculos.First());
+            MessageBox.Show(veiculos.Last());
+
+            foreach (var item in veiculos)
+            {
+                lista.Items.Add(item);
+            }
+
+            veiculos.Add("");
         }
     }
 }

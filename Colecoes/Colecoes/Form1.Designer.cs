@@ -31,6 +31,7 @@
             this.lista = new System.Windows.Forms.ListBox();
             this.btnList = new System.Windows.Forms.Button();
             this.btnHashSet = new System.Windows.Forms.Button();
+            this.btnDitcionary = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -65,11 +66,23 @@
             this.btnHashSet.UseVisualStyleBackColor = true;
             this.btnHashSet.Click += new System.EventHandler(this.btnHashSet_Click);
             // 
+            // btnDitcionary
+            // 
+            this.btnDitcionary.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDitcionary.Location = new System.Drawing.Point(592, 167);
+            this.btnDitcionary.Name = "btnDitcionary";
+            this.btnDitcionary.Size = new System.Drawing.Size(187, 53);
+            this.btnDitcionary.TabIndex = 3;
+            this.btnDitcionary.Text = "Dictionary";
+            this.btnDitcionary.UseVisualStyleBackColor = true;
+            this.btnDitcionary.Click += new System.EventHandler(this.btnDitcionary_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDitcionary);
             this.Controls.Add(this.btnHashSet);
             this.Controls.Add(this.btnList);
             this.Controls.Add(this.lista);
@@ -85,6 +98,7 @@
         private System.Windows.Forms.ListBox lista;
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Button btnHashSet;
+        private System.Windows.Forms.Button btnDitcionary;
     }
 }
 

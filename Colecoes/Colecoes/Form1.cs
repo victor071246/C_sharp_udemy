@@ -122,5 +122,22 @@ namespace Colecoes
 
             veiculos.Add("");
         }
+
+        private void btnDitcionary_Click(object sender, EventArgs e)
+        {
+            Dictionary<int, string> alunos = new Dictionary<int, string>()
+            {
+                { 150, "Danny" },
+                { 200, "Arthur" },
+                { 80, "Danny" }
+            };
+
+            alunos.Add(100, "Gabriel");
+
+            foreach (KeyValuePair <int, string> item in alunos)
+            {
+                lista.Items.Add(item.Key + " = " + item.Value);
+            }
+        }
     }
 }

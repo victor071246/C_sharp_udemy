@@ -6,5 +6,10 @@ namespace ProjetoAplicacao
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox1.Text = string.Empty;
+        }
     }
 }

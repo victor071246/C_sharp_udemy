@@ -1,0 +1,16 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\bin\Debug\net9.0-windows\ProjetoAplicacao.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\bin\Debug\net9.0-windows\ProjetoAplicacao.deps.json
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\bin\Debug\net9.0-windows\ProjetoAplicacao.runtimeconfig.json
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\bin\Debug\net9.0-windows\ProjetoAplicacao.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\bin\Debug\net9.0-windows\ProjetoAplicacao.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\refint\ProjetoAplicacao.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ProjetoAplicacao.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ProjetoAplicacao\ProjetoAplicacao\obj\Debug\net9.0-windows\ref\ProjetoAplicacao.dll

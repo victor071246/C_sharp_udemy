@@ -134,9 +134,69 @@ namespace Colecoes
 
             alunos.Add(100, "Gabriel");
 
+            //if (alunos.ContainsKey(810))
+            //{
+            //    MessageBox.Show("Contém a chave 80");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Não contém a chave 80");
+            //};
+
+            if (alunos.ContainsValue("Jonas"))
+            {
+                MessageBox.Show("Contém o aluno Jonas");
+            }
+            else
+            {
+                MessageBox.Show("Não contém o aluno Jonas");
+            };
+
+            //alunos.Remove(80);
+            //alunos.Clear();
+
+            //KeyValuePair<int, string> primeiro = alunos.First();
+            //MessageBox.Show("Primeiro " + primeiro.Key + " " + primeiro.Value);
+            //MessageBox.Show("Primeiro " + alunos.Last().Key + " " + alunos.Last().Value);
+
+
+
             foreach (KeyValuePair <int, string> item in alunos)
             {
                 lista.Items.Add(item.Key + " = " + item.Value);
+            }
+
+            //MessageBox.Show("Quantidade de alunos: " + alunos.Count);
+
+
+            //alunos.Remove(1);
+            //alunos.Clear();
+        }
+
+        private void btnSortedList_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            SortedList<int, string> alunos = new SortedList<int, string>()
+            {
+                { 27, "Danny" },
+                { 10, "Gabriel" },
+                { 17, "Arthur" },
+            };
+
+            alunos.Add(14, "Glória");
+            //alunos.Reverse();
+
+            //alunos.Remove(10);
+            //alunos.RemoveAt(0);
+            //alunos.Count();
+            //alunos.ContainsKey(50);
+            //alunos.ContainsValue("Danny")
+
+
+            foreach (KeyValuePair<int, string> item in alunos.Reverse())
+            {
+                lista.Items.Add(item.Key + " " + item.Value);
             }
         }
     }

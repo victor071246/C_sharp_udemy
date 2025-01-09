@@ -254,5 +254,48 @@ namespace Colecoes
                 lista.Items.Add(nome);
             }
         }
+
+        private void btnQueue_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            Queue<string> fila = new Queue<string>();
+            fila.Enqueue("Gabriel");
+            fila.Enqueue("Danny");
+            fila.Enqueue("Arthur");
+
+            foreach (string item in fila)
+            {
+                lista.Items.Add(item);
+            }
+
+            MessageBox.Show(fila.Count().ToString());
+
+
+            //MessageBox.Show("Primeiro da fila: " + fila.Peek());
+            //MessageBox.Show(fila.Count.ToString());//apenas mostra o elemento objeto da fila
+
+            //MessageBox.Show("Primeiro da fila: " + fila.Dequeue());
+            //MessageBox.Show(fila.Count.ToString());//mostra e remove o elemento objeto da fila
+
+            //MessageBox.Show("Primeiro da fila: " + fila.First());
+            //MessageBox.Show(fila.Count.ToString());//retorna o primeiro elemento da fila
+
+            //MessageBox.Show("Primeiro da fila: " + fila.Last());
+            //MessageBox.Show(fila.Count.ToString());//retorna o último elemento da fila
+
+            //fila.Clear();
+            while (fila.Count > 0)
+            {
+                MessageBox.Show("Primeiro da fila: " + fila.Dequeue());
+                MessageBox.Show(fila.Count.ToString());//mostra e remove o elemento objeto da fila
+                lista.Items.Clear();
+                foreach (string item in fila)
+                {
+                    lista.Items.Add(item);
+                }
+            }
+
+        }
     }
 }

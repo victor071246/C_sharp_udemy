@@ -297,5 +297,43 @@ namespace Colecoes
             }
 
         }
+
+        private void btnStack_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            Stack<string> pilha = new Stack<string>();
+
+            pilha.Push("Gabriel");
+            pilha.Push("Danny");
+            pilha.Push("Arthur");
+
+            MessageBox.Show(pilha.Count.ToString());
+
+            foreach (string item in pilha)
+            {
+                lista.Items.Add(item);
+            }
+
+            //MessageBox.Show("Elemento no topo " + pilha.Peek()); //Mostra o elemento no topo da pilha
+            //MessageBox.Show(pilha.Count.ToString());
+
+            //pilha.Clear();
+
+            while (pilha.Count > 0)
+            {
+                MessageBox.Show("Elemento no topo " + pilha.Pop()); //Mostra e remove o primeiro elemento da pilha
+                MessageBox.Show(pilha.Count.ToString());
+                lista.Items.Clear();
+                foreach (string item in pilha)
+                {
+                    lista.Items.Add((string)item);
+                }
+            }
+
+
+
+            pilha.Peek();// Retorna o objeto no topo da pilha sem remover
+        }
     }
 }

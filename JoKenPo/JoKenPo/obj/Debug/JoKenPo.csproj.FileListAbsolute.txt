@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\bin\Debug\JoKenPo.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\JoKenPo\JoKenPo\obj\Debug\JoKenPo.pdb

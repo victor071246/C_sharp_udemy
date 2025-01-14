@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelResultado = new System.Windows.Forms.Label();
             this.btnPedra = new System.Windows.Forms.Button();
             this.btnPapel = new System.Windows.Forms.Button();
             this.btnTesoura = new System.Windows.Forms.Button();
@@ -58,6 +58,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(33, 95);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
@@ -66,6 +67,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(302, 95);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 200);
@@ -74,6 +76,7 @@
             // 
             // pictureResultado
             // 
+            this.pictureResultado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureResultado.Location = new System.Drawing.Point(571, 95);
             this.pictureResultado.Name = "pictureResultado";
             this.pictureResultado.Size = new System.Drawing.Size(200, 200);
@@ -124,16 +127,16 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "=";
             // 
-            // label5
+            // labelResultado
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(657, 178);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 25);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "?";
+            this.labelResultado.AutoSize = true;
+            this.labelResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResultado.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelResultado.Location = new System.Drawing.Point(657, 178);
+            this.labelResultado.Name = "labelResultado";
+            this.labelResultado.Size = new System.Drawing.Size(25, 25);
+            this.labelResultado.TabIndex = 8;
+            this.labelResultado.Text = "?";
             // 
             // btnPedra
             // 
@@ -176,7 +179,7 @@
             this.Controls.Add(this.btnTesoura);
             this.Controls.Add(this.btnPapel);
             this.Controls.Add(this.btnPedra);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -205,7 +208,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelResultado;
         private System.Windows.Forms.Button btnPedra;
         private System.Windows.Forms.Button btnPapel;
         private System.Windows.Forms.Button btnTesoura;

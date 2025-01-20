@@ -34,12 +34,13 @@
             this.btnTimeSpan = new System.Windows.Forms.Button();
             this.btnDateTime = new System.Windows.Forms.Button();
             this.btnColor = new System.Windows.Forms.Button();
+            this.btnFont = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMessageBox
             // 
             this.btnMessageBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMessageBox.Location = new System.Drawing.Point(11, 140);
+            this.btnMessageBox.Location = new System.Drawing.Point(12, 340);
             this.btnMessageBox.Name = "btnMessageBox";
             this.btnMessageBox.Size = new System.Drawing.Size(198, 40);
             this.btnMessageBox.TabIndex = 0;
@@ -59,7 +60,7 @@
             // btnAleatorio
             // 
             this.btnAleatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAleatorio.Location = new System.Drawing.Point(215, 140);
+            this.btnAleatorio.Location = new System.Drawing.Point(216, 340);
             this.btnAleatorio.Name = "btnAleatorio";
             this.btnAleatorio.Size = new System.Drawing.Size(198, 40);
             this.btnAleatorio.TabIndex = 2;
@@ -70,7 +71,7 @@
             // btnTimeSpan
             // 
             this.btnTimeSpan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimeSpan.Location = new System.Drawing.Point(419, 140);
+            this.btnTimeSpan.Location = new System.Drawing.Point(420, 340);
             this.btnTimeSpan.Name = "btnTimeSpan";
             this.btnTimeSpan.Size = new System.Drawing.Size(198, 40);
             this.btnTimeSpan.TabIndex = 3;
@@ -81,7 +82,7 @@
             // btnDateTime
             // 
             this.btnDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDateTime.Location = new System.Drawing.Point(623, 140);
+            this.btnDateTime.Location = new System.Drawing.Point(624, 340);
             this.btnDateTime.Name = "btnDateTime";
             this.btnDateTime.Size = new System.Drawing.Size(198, 40);
             this.btnDateTime.TabIndex = 4;
@@ -92,7 +93,7 @@
             // btnColor
             // 
             this.btnColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColor.Location = new System.Drawing.Point(11, 186);
+            this.btnColor.Location = new System.Drawing.Point(12, 386);
             this.btnColor.Name = "btnColor";
             this.btnColor.Size = new System.Drawing.Size(198, 40);
             this.btnColor.TabIndex = 5;
@@ -100,11 +101,23 @@
             this.btnColor.UseVisualStyleBackColor = true;
             this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
+            // btnFont
+            // 
+            this.btnFont.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFont.Location = new System.Drawing.Point(216, 386);
+            this.btnFont.Name = "btnFont";
+            this.btnFont.Size = new System.Drawing.Size(198, 40);
+            this.btnFont.TabIndex = 6;
+            this.btnFont.Text = "Font";
+            this.btnFont.UseVisualStyleBackColor = true;
+            this.btnFont.Click += new System.EventHandler(this.btnFont_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(841, 450);
+            this.Controls.Add(this.btnFont);
             this.Controls.Add(this.btnColor);
             this.Controls.Add(this.btnDateTime);
             this.Controls.Add(this.btnTimeSpan);
@@ -125,6 +138,7 @@
         private System.Windows.Forms.Button btnTimeSpan;
         private System.Windows.Forms.Button btnDateTime;
         private System.Windows.Forms.Button btnColor;
+        private System.Windows.Forms.Button btnFont;
     }
 }
 

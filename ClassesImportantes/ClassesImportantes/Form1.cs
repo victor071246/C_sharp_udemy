@@ -105,10 +105,27 @@ namespace ClassesImportantes
             //Color cor1 = Color.FromArgb(255, 100, 50, 135);
             Color cor1 = Color.FromArgb(100, 50, 135); // Com 3 itens a assinatura de transparência é ignorada
             Color cor2 = Color.FromKnownColor(KnownColor.Control);
+            Color cor3 = Color.FromName("DarkRed");
 
-            lblResultado.BackColor = cor1;
-            lblResultado.ForeColor = amarelo;
+            lblResultado.BackColor = cor3;
+            lblResultado.ForeColor = cor2;
 
+            Color cor4 = lblResultado.BackColor;
+
+            btnColor.ForeColor = cor4;
+
+        }
+
+        private void btnFont_Click(object sender, EventArgs e)
+        {
+            //Font letra = new Font("Comic Sans MS", 36, FontStyle.Italic | FontStyle.Bold, GraphicsUnit.Pixel);
+            Font letra = new Font("Helvetica, Arial, sans-serif", 36, FontStyle.Italic | FontStyle.Bold, GraphicsUnit.Pixel);
+
+            Font letra2 = new Font(FontFamily.GenericMonospace, 36, FontStyle.Regular, GraphicsUnit.Pixel);
+
+            lblResultado.Text = "Bem vindo ao C#, Trabalho com fontes ";
+
+            lblResultado.Font = letra2;
         }
     }
 }

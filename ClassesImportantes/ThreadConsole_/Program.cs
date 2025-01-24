@@ -14,7 +14,7 @@ namespace ThreadConsole_
             Thread t = new Thread(new ThreadStart(Tarefa));
             t.IsBackground = true;
             t.Start();
-            t.Join();
+            //t.Join();
 
             for (int i = 0; i < 10; i++)
             {

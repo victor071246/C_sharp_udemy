@@ -40,12 +40,13 @@ namespace ThreadForms
 
         private void Tarefa()
         {
-            //while (true)
-            //{
-            //lblResultado.Text = DateTime.Now.Second.ToString();
-            //DefinirValorPropriedade(lblResultado, "Text", DateTime.Now.Second.ToString());
-            //}
-            DefinirValorPropriedade(lblResultado, "BackColor", Color.Red);
+            while (true)
+            {
+                lblResultado.Text = DateTime.Now.Second.ToString();
+                //DefinirValorPropriedade(lblResultado, "Text", DateTime.Now.Second.ToString());
+            }
+            //DefinirValorPropriedade(lblResultado, "BackColor", Color.Red);
+
 
         }
 

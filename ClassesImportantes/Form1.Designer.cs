@@ -36,6 +36,7 @@
             this.btnColor = new System.Windows.Forms.Button();
             this.btnFont = new System.Windows.Forms.Button();
             this.btnEnvironment = new System.Windows.Forms.Button();
+            this.btnApplication = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMessageBox
@@ -124,11 +125,23 @@
             this.btnEnvironment.UseVisualStyleBackColor = true;
             this.btnEnvironment.Click += new System.EventHandler(this.btnEnvironment_Click);
             // 
+            // btnApplication
+            // 
+            this.btnApplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplication.Location = new System.Drawing.Point(624, 386);
+            this.btnApplication.Name = "btnApplication";
+            this.btnApplication.Size = new System.Drawing.Size(198, 40);
+            this.btnApplication.TabIndex = 8;
+            this.btnApplication.Text = "Application";
+            this.btnApplication.UseVisualStyleBackColor = true;
+            this.btnApplication.Click += new System.EventHandler(this.btnAplication_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(841, 450);
+            this.Controls.Add(this.btnApplication);
             this.Controls.Add(this.btnEnvironment);
             this.Controls.Add(this.btnFont);
             this.Controls.Add(this.btnColor);
@@ -153,6 +166,7 @@
         private System.Windows.Forms.Button btnColor;
         private System.Windows.Forms.Button btnFont;
         private System.Windows.Forms.Button btnEnvironment;
+        private System.Windows.Forms.Button btnApplication;
     }
 }
 

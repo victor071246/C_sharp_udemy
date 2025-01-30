@@ -42,8 +42,9 @@ namespace ThreadForms
         {
             while (true)
             {
-                lblResultado.Text = DateTime.Now.Second.ToString();
+                //lblResultado.Text = DateTime.Now.Second.ToString();
                 //DefinirValorPropriedade(lblResultado, "Text", DateTime.Now.Second.ToString());
+                lblResultado.Invoke(new Action(() => lblResultado.Text = DateTime.Now.Second.ToString()));
             }
             //DefinirValorPropriedade(lblResultado, "BackColor", Color.Red);
 

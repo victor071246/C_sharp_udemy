@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadConsole_", "ThreadCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadForms", "ThreadForms\ThreadForms.csproj", "{BFC4EEA0-0157-4951-8747-8B9CB7906EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsole", "TaskConsole\TaskConsole.csproj", "{F5705168-7CAB-44EB-BE84-C1A8555B6CB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BFC4EEA0-0157-4951-8747-8B9CB7906EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC4EEA0-0157-4951-8747-8B9CB7906EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC4EEA0-0157-4951-8747-8B9CB7906EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5705168-7CAB-44EB-BE84-C1A8555B6CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5705168-7CAB-44EB-BE84-C1A8555B6CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5705168-7CAB-44EB-BE84-C1A8555B6CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5705168-7CAB-44EB-BE84-C1A8555B6CB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

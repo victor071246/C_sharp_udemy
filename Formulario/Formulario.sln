@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{37503D04-1546-404C-8071-E05196D52428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormControle", "FormControle\FormControle.csproj", "{6C942DC2-357B-4007-8A44-596831F6B828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37503D04-1546-404C-8071-E05196D52428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37503D04-1546-404C-8071-E05196D52428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37503D04-1546-404C-8071-E05196D52428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C942DC2-357B-4007-8A44-596831F6B828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C942DC2-357B-4007-8A44-596831F6B828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C942DC2-357B-4007-8A44-596831F6B828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C942DC2-357B-4007-8A44-596831F6B828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+C:\Users\victo\source\repos\ControlesForm\Parte001\bin\Debug\Parte001.exe.config
+C:\Users\victo\source\repos\ControlesForm\Parte001\bin\Debug\Parte001.exe
+C:\Users\victo\source\repos\ControlesForm\Parte001\bin\Debug\Parte001.pdb
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.Form1.resources
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.Properties.Resources.resources
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.csproj.GenerateResource.cache
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.exe
+C:\Users\victo\source\repos\ControlesForm\Parte001\obj\Debug\Parte001.pdb

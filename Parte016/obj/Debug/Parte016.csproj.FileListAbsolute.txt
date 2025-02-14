@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\bin\Debug\Parte016.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\bin\Debug\Parte016.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\bin\Debug\Parte016.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControlesFormOrganizado_15_EmDiante\Parte016\obj\Debug\Parte016.pdb

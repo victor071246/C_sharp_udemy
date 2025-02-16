@@ -13,28 +13,25 @@ using System.Drawing.Text;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Reflection;
-using System;
-using System.Drawing;
-using System.Drawing.Text;
-using System.IO;
-using System.Reflection;
-using System.Runtime.InteropServices;
+
 
 
 
 namespace Temporizador
 {
 
+
     public partial class Form1 : Form
     {
         private PrivateFontCollection pfc = new PrivateFontCollection();
+
 
 
         public Form1()
         {
             InitializeComponent();
             listBox1.SelectedIndex = 0;
-           
+
         }
 
 
@@ -45,7 +42,7 @@ namespace Temporizador
                 entrada.Visible = false;
                 listBox1.Visible = false;
             }
-            else if(timer1.Enabled)
+            else if (timer1.Enabled)
             {
                 entrada.Visible = false;
                 listBox1.Visible = false;
@@ -133,18 +130,18 @@ namespace Temporizador
             }
         }
 
-        private bool VerLetra(string tempo) 
+        private bool VerLetra(string tempo)
         {
             char[] caracteresIndevidos = {
             '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+',
             '{', '}', '[', ']', '|', '\\', ':', ';', '"', '\'', '<', '>', ',',
-            '.', '?', '/', '~', '`', '\t', '\n', '\r', ' ', 'a', 'e', 'i', 'o', 
+            '.', '?', '/', '~', '`', '\t', '\n', '\r', ' ', 'a', 'e', 'i', 'o',
             'u' , 'A', 'E', 'I', 'O', 'U'  // Incluindo espaços e caracteres de controle
             };
             foreach (char caractere in caracteresIndevidos)
             {
                 tempo.Contains(caractere);
-                if(tempo.Contains(caractere) )
+                if (tempo.Contains(caractere))
                 {
 
                     return true;
@@ -181,9 +178,22 @@ namespace Temporizador
         {
             TimeSpan timeSpan = TimeSpan.Parse(contador.Text);
             double segundosTotais = timeSpan.TotalSeconds;
-            segundosTotais -= 1;
-            timeSpan = TimeSpan.FromSeconds(segundosTotais);
-            contador.Text = timeSpan.ToString(@"hh\:mm\:ss");
+            if (segundosTotais > 0)
+            {
+                segundosTotais -= 1;
+                timeSpan = TimeSpan.FromSeconds(segundosTotais);
+                contador.Text = timeSpan.ToString(@"hh\:mm\:ss");
+            }
+            else
+            {
+                timer1.Stop();
+                entrada.Text = "";
+                contador.Text = "00:00:00";
+                button1.Text = "Iniciar";
+                this.WindowState = FormWindowState.Minimized; // Minimiza a janela
+                this.WindowState = FormWindowState.Normal;
+                MessageBox.Show("O contador chegou ao final!");
+            }
 
         }
 
@@ -195,10 +205,10 @@ namespace Temporizador
             string binDirectory = Path.GetFullPath(Path.Combine(appDirectory, @"..\..\"));
             // Caminho completo para o arquivo de fonte, dentro da pasta Resources
             string fontPath = Path.Combine(binDirectory, "Resources", "Orbitron-Regular.ttf");
-            MessageBox.Show(binDirectory);
-            // Lista todos os recursos embutidos no projeto
-            string[] recursos = Assembly.GetExecutingAssembly().GetManifestResourceNames();
-            MessageBox.Show("Recursos encontrados:\n" + string.Join("\n", recursos), "Depuração", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show(binDirectory);
+            //// Lista todos os recursos embutidos no projeto
+            //string[] recursos = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+            //MessageBox.Show("Recursos encontrados:\n" + string.Join("\n", recursos), "Depuração", MessageBoxButtons.OK, MessageBoxIcon.Information);
             pfc.AddFontFile("C:\\Users\\victo\\OneDrive\\Área de Trabalho\\programação\\c_sharp_udemy\\Temporizador\\Temporizador\\Resources\\Orbitron-Regular.ttf");
 
             contador.Font = new Font(pfc.Families[0], 48);
@@ -223,7 +233,7 @@ namespace Temporizador
 
         private void button1_Paint(object sender, PaintEventArgs e)
         {
-           
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -241,3 +251,6 @@ namespace Temporizador
 
     }
 }
+
+
+

@@ -9,20 +9,34 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Reflection;
+using System;
+using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
 
 
 namespace Temporizador
 {
+
     public partial class Form1 : Form
     {
+        private PrivateFontCollection pfc = new PrivateFontCollection();
+
+
         public Form1()
         {
             InitializeComponent();
+            listBox1.SelectedIndex = 0;
+           
         }
+
 
         private void contador_Click(object sender, EventArgs e)
         {
@@ -124,7 +138,8 @@ namespace Temporizador
             char[] caracteresIndevidos = {
             '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+',
             '{', '}', '[', ']', '|', '\\', ':', ';', '"', '\'', '<', '>', ',',
-            '.', '?', '/', '~', '`', '\t', '\n', '\r', ' '  // Incluindo espaços e caracteres de controle
+            '.', '?', '/', '~', '`', '\t', '\n', '\r', ' ', 'a', 'e', 'i', 'o', 
+            'u' , 'A', 'E', 'I', 'O', 'U'  // Incluindo espaços e caracteres de controle
             };
             foreach (char caractere in caracteresIndevidos)
             {
@@ -175,18 +190,21 @@ namespace Temporizador
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listBox1.SelectedIndex = 0;
-            PrivateFontCollection privateFonts = new PrivateFontCollection();
-            Stream fontStream = this.GetType().Assembly.GetManifestResourceStream("Temporizador.Orbitron-Regular.ttf");
-            byte[] fontData = new byte[fontStream.Length];
-            fontStream.Read(fontData, 0, (int)fontStream.Length);
-            fontStream.Close();
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            // Caminho completo para o diretório bin, subindo dois níveis a partir de appDirectory
+            string binDirectory = Path.GetFullPath(Path.Combine(appDirectory, @"..\..\"));
+            // Caminho completo para o arquivo de fonte, dentro da pasta Resources
+            string fontPath = Path.Combine(binDirectory, "Resources", "Orbitron-Regular.ttf");
+            MessageBox.Show(binDirectory);
+            // Lista todos os recursos embutidos no projeto
+            string[] recursos = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+            MessageBox.Show("Recursos encontrados:\n" + string.Join("\n", recursos), "Depuração", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            pfc.AddFontFile("C:\\Users\\victo\\OneDrive\\Área de Trabalho\\programação\\c_sharp_udemy\\Temporizador\\Temporizador\\Resources\\Orbitron-Regular.ttf");
 
-            IntPtr fontPtr = Marshal.AllocCoTaskMem(fontData.Length);
-            Marshal.Copy(fontData, 0, fontPtr, fontData.Length);
-            privateFonts.AddMemoryFont(fontPtr, fontData.Length);
-            Marshal.FreeCoTaskMem(fontPtr);
-            contador.Font = new Font(privateFonts.Families[0], 72, FontStyle.Regular);
+            contador.Font = new Font(pfc.Families[0], 48);
+            button1.Font = new Font(pfc.Families[0], 22);
+            button2.Font = new Font(pfc.Families[0], 22);
+
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -205,26 +223,21 @@ namespace Temporizador
 
         private void button1_Paint(object sender, PaintEventArgs e)
         {
-            GraphicsPath path = new GraphicsPath();
-            int radius = 50;  // Raio da borda arredondada
-
-            path.AddArc(0, 0, radius, radius, 180, 90);
-            path.AddArc(button1.Width - radius, 0, radius, radius, 270, 90);
-            path.AddArc(button1.Width - radius, button1.Height - radius, radius, radius, 0, 90);
-            path.AddArc(0, button1.Height - radius, radius, radius, 90, 90);
-            path.CloseFigure();
-
-            button1.Region = new Region(path);
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            timer1.Stop();
+            entrada.Text = "";
+            contador.Text = "00:00:00";
+            button1.Text = "Iniciar";
         }
 
         private void button2_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
     }
 }

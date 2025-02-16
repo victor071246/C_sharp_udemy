@@ -41,33 +41,41 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(55, 366);
+            this.button1.Location = new System.Drawing.Point(23, 346);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(190, 57);
             this.button1.TabIndex = 0;
             this.button1.Text = "Iniciar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.toolTip1.SetToolTip(this.button1, "Com o temporizador pausado, clique no temporizador");
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.Paint += new System.Windows.Forms.PaintEventHandler(this.button1_Paint);
             // 
             // button2
             // 
-            this.button2.FlatAppearance.BorderSize = 5;
+            this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(328, 366);
+            this.button2.Location = new System.Drawing.Point(300, 346);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(190, 57);
             this.button2.TabIndex = 1;
             this.button2.Text = "Parar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.button2_Paint);
             // 
             // contador
             // 
             this.contador.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contador.Location = new System.Drawing.Point(51, 36);
+            this.contador.Location = new System.Drawing.Point(23, 20);
             this.contador.Name = "contador";
             this.contador.Size = new System.Drawing.Size(467, 142);
             this.contador.TabIndex = 2;
@@ -84,7 +92,7 @@
             // entrada
             // 
             this.entrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.entrada.Location = new System.Drawing.Point(69, 240);
+            this.entrada.Location = new System.Drawing.Point(23, 208);
             this.entrada.Name = "entrada";
             this.entrada.Size = new System.Drawing.Size(265, 40);
             this.entrada.TabIndex = 3;
@@ -99,7 +107,7 @@
             "Horas",
             "Minutos",
             "Segundos"});
-            this.listBox1.Location = new System.Drawing.Point(369, 243);
+            this.listBox1.Location = new System.Drawing.Point(316, 211);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(163, 37);
             this.listBox1.TabIndex = 4;
@@ -112,7 +120,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(594, 480);
+            this.ClientSize = new System.Drawing.Size(513, 416);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.entrada);
             this.Controls.Add(this.contador);

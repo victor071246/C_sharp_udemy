@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\bin\Debug\ControleDeErros.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\bin\Debug\ControleDeErros.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\bin\Debug\ControleDeErros.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ControleDeErros\ControleDeErros\obj\Debug\ControleDeErros.pdb

@@ -1,0 +1,13 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\BaseDados.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\BaseDados.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\BaseDados.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.Up2Date
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.pdb

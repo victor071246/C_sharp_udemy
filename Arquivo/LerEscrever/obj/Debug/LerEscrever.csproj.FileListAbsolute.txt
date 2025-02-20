@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\bin\Debug\LerEscrever.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\bin\Debug\LerEscrever.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\bin\Debug\LerEscrever.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Arquivo\LerEscrever\obj\Debug\LerEscrever.pdb

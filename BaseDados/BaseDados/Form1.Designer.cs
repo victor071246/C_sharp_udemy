@@ -35,8 +35,8 @@
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnCriarTabela = new System.Windows.Forms.Button();
             this.btnInserir = new System.Windows.Forms.Button();
@@ -103,21 +103,21 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Email";
             // 
+            // txtNome
+            // 
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(126, 123);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(662, 35);
+            this.txtNome.TabIndex = 4;
+            // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(126, 123);
+            this.txtEmail.Location = new System.Drawing.Point(126, 179);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(662, 35);
-            this.txtEmail.TabIndex = 4;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(126, 179);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(662, 35);
-            this.textBox2.TabIndex = 5;
+            this.txtEmail.TabIndex = 5;
             // 
             // btnConectar
             // 
@@ -139,6 +139,7 @@
             this.btnCriarTabela.TabIndex = 7;
             this.btnCriarTabela.Text = "criar tabela";
             this.btnCriarTabela.UseVisualStyleBackColor = true;
+            this.btnCriarTabela.Click += new System.EventHandler(this.btnCriarTabela_Click);
             // 
             // btnInserir
             // 
@@ -149,6 +150,7 @@
             this.btnInserir.TabIndex = 8;
             this.btnInserir.Text = "inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnProcurar
             // 
@@ -191,8 +193,8 @@
             this.Controls.Add(this.btnInserir);
             this.Controls.Add(this.btnCriarTabela);
             this.Controls.Add(this.btnConectar);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lista);
@@ -215,8 +217,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn email;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnCriarTabela;
         private System.Windows.Forms.Button btnInserir;

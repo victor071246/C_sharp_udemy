@@ -11,3 +11,17 @@ C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\
 C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.Up2Date
 C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.exe
 C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\obj\Debug\BaseDados.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\EntityFramework.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Data.SQLite.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\EntityFramework.xml
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Data.SQLite.xml
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\MySql.Data.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Memory.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\System.Buffers.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\BaseDados\BaseDados\bin\Debug\MySql.Data.xml

@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\bin\Debug\LINQ_1.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\LINQ_1\LINQ_1\obj\Debug\LINQ_1.pdb

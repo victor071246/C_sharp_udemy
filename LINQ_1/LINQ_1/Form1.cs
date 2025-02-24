@@ -113,12 +113,26 @@ namespace LINQ_1
             string txt = txtConsulta.Text;
             IEnumerable<string> res2 = from nome in lista_nomes where nome.StartsWith(txt) select nome;
 
-            lista.Items.AddRange(res2.ToArray());
+            lista.Items.AddRange(res2.ToArray());  
 
             //foreach (string n in res2)
             //{
             //    lista.Items.Add(n);
             //}
+        }
+
+        private void btnWhere_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+            // Operador de Filtragem, a clausula where
+
+            string txt = txtConsulta.Text.Trim().ToLower();
+            var res = from nome in lista_nomes where nome.ToLower().Contains(txt) select nome;
+
+            foreach (var item in res)
+            {
+                lista.Items.Add(item);
+            }
         }
     }
 }

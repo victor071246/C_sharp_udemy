@@ -31,6 +31,7 @@
             this.lista = new System.Windows.Forms.ListBox();
             this.txtConsulta = new System.Windows.Forms.TextBox();
             this.btnExecutar = new System.Windows.Forms.Button();
+            this.btnWhere = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -62,11 +63,23 @@
             this.btnExecutar.UseVisualStyleBackColor = true;
             this.btnExecutar.Click += new System.EventHandler(this.btnExecutar_Click);
             // 
+            // btnWhere
+            // 
+            this.btnWhere.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWhere.Location = new System.Drawing.Point(621, 114);
+            this.btnWhere.Name = "btnWhere";
+            this.btnWhere.Size = new System.Drawing.Size(167, 34);
+            this.btnWhere.TabIndex = 3;
+            this.btnWhere.Text = "Where";
+            this.btnWhere.UseVisualStyleBackColor = true;
+            this.btnWhere.Click += new System.EventHandler(this.btnWhere_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnWhere);
             this.Controls.Add(this.btnExecutar);
             this.Controls.Add(this.txtConsulta);
             this.Controls.Add(this.lista);
@@ -82,6 +95,7 @@
         private System.Windows.Forms.ListBox lista;
         private System.Windows.Forms.TextBox txtConsulta;
         private System.Windows.Forms.Button btnExecutar;
+        private System.Windows.Forms.Button btnWhere;
     }
 }
 

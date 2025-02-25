@@ -45,17 +45,17 @@ namespace LINQ_1
 
             #region Lista de Números
             lista_numeros = new List<int>();
-            lista_numeros.Add(5);
-            lista_numeros.Add(7);
-            lista_numeros.Add(13);
-            lista_numeros.Add(42);
-            lista_numeros.Add(23);
-            lista_numeros.Add(87);
-            lista_numeros.Add(91);
-            lista_numeros.Add(76);
-            lista_numeros.Add(19);
-            lista_numeros.Add(29);
-            lista_numeros.Add(33);
+            //lista_numeros.Add(5);
+            //lista_numeros.Add(7);
+            //lista_numeros.Add(13);
+            //lista_numeros.Add(42);
+            //lista_numeros.Add(23);
+            //lista_numeros.Add(87);
+            //lista_numeros.Add(91);
+            //lista_numeros.Add(76);
+            //lista_numeros.Add(19);
+            //lista_numeros.Add(29);
+            //lista_numeros.Add(33);
             #endregion
 
             #region Lista de Produtos
@@ -133,6 +133,102 @@ namespace LINQ_1
             {
                 lista.Items.Add(item);
             }
+        }
+
+        private void btnOrderBy_Click(object sender, EventArgs e)
+        {
+            // Operador de ordenação
+            lista.Items.Clear();
+            string txt = txtConsulta.Text;
+
+            //var res = from num in lista_numeros orderby num descending where num <= 10 select num;
+
+            //var res = from nome in lista_nomes orderby nome select nome;
+
+            //foreach (var n in res)
+            //{
+            //    lista.Items.Add(n);
+            //}
+
+            var res = from produto in lista_produtos orderby produto.Key select produto;
+
+            foreach (KeyValuePair<string, double> item in res)
+            {
+                lista.Items.Add(item.Key + " R$ " + item.Value);
+            }
+
+        }
+
+        private void btnGroupBy_Click(object sender, EventArgs e)
+        {
+            // Operadores de Agrupamento
+            lista.Items.Clear();
+            txtConsulta.Text = "";
+
+            var res = from estado in lista_estados group estado by estado.Value;
+
+            foreach (var grupo in res)
+            {
+                lista.Items.Add(grupo.Key);
+                foreach (var estado in grupo)
+                {
+                    lista.Items.Add($"      {estado.Key}");
+                }
+            }
+        }
+
+        private void btnAgregacao_Click(object sender, EventArgs e)
+        {
+            //lista.Items.Clear();
+            //int cont1 = lista_nomes.Count();
+            //int cont2 = (from nome in lista_nomes where nome.StartsWith("G") select nome).Count();
+            //lista.Items.Add(cont1 + " nomes.");
+            //lista.Items.Add(cont2 + " nomes começados com a letra G");
+
+
+
+            //double media1 = lista_numeros.Average();
+            //lista.Items.Add(media1 + " média dos valores na lista números");
+
+            //var res1 = from num in lista_numeros where num < 10 select num;
+            //double media2 = res1.Average();
+            //lista.Items.Add(media2 + " média dos valores menores que 10");
+
+            //int soma1 = lista_numeros.Sum();
+            //lista.Items.Add(soma1 + " é a soma dos valores");
+
+            //var res2 = from num in lista_numeros where num < 10 select num;
+            //int soma2 = res2.Sum();
+            //lista.Items.Add(soma1 + " soma dos valores < 10.");
+
+            //// Também aplicados nas consultas
+            //lista.Items.Add(lista_numeros.Min() + " valor mínimo em lista de números");
+            //lista.Items.Add(lista_numeros.Max() + " valor máximo em lista de números");
+
+            // Também aplicado nas consultas
+            //long contagem = lista_numeros.LongCount();
+
+            string maiorNome = lista_nomes.Aggregate(lista_nomes[0], (maior, proximo) => 
+            {
+                if (maior.ToString().Length > proximo.Length)
+                {
+                    return maior;
+                }
+                else
+                {
+                    return proximo;
+                }
+            });
+
+            lista.Items.Add(maiorNome + " é o maior nome da lista");
+        }
+
+        private void btnOperadoresDeElemento_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            int primeiro = lista_numeros.FirstOrDefault();
+            lista.Items.Add(primeiro);
         }
     }
 }

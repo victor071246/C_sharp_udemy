@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\bin\Debug\GDIPLus.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\bin\Debug\GDIPLus.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\bin\Debug\GDIPLus.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\GDIPLus\GDIPLus\obj\Debug\GDIPLus.pdb

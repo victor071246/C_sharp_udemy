@@ -36,6 +36,7 @@
             this.btnGroupBy = new System.Windows.Forms.Button();
             this.btnAgregacao = new System.Windows.Forms.Button();
             this.btnOperadoresDeElemento = new System.Windows.Forms.Button();
+            this.btnLINQLambda = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -70,7 +71,7 @@
             // btnWhere
             // 
             this.btnWhere.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWhere.Location = new System.Drawing.Point(621, 112);
+            this.btnWhere.Location = new System.Drawing.Point(621, 113);
             this.btnWhere.Name = "btnWhere";
             this.btnWhere.Size = new System.Drawing.Size(208, 34);
             this.btnWhere.TabIndex = 3;
@@ -81,7 +82,7 @@
             // btnOrderBy
             // 
             this.btnOrderBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrderBy.Location = new System.Drawing.Point(621, 162);
+            this.btnOrderBy.Location = new System.Drawing.Point(621, 164);
             this.btnOrderBy.Name = "btnOrderBy";
             this.btnOrderBy.Size = new System.Drawing.Size(208, 34);
             this.btnOrderBy.TabIndex = 4;
@@ -92,7 +93,7 @@
             // btnGroupBy
             // 
             this.btnGroupBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGroupBy.Location = new System.Drawing.Point(621, 212);
+            this.btnGroupBy.Location = new System.Drawing.Point(621, 215);
             this.btnGroupBy.Name = "btnGroupBy";
             this.btnGroupBy.Size = new System.Drawing.Size(208, 34);
             this.btnGroupBy.TabIndex = 5;
@@ -103,7 +104,7 @@
             // btnAgregacao
             // 
             this.btnAgregacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregacao.Location = new System.Drawing.Point(621, 262);
+            this.btnAgregacao.Location = new System.Drawing.Point(621, 266);
             this.btnAgregacao.Name = "btnAgregacao";
             this.btnAgregacao.Size = new System.Drawing.Size(208, 34);
             this.btnAgregacao.TabIndex = 6;
@@ -114,7 +115,7 @@
             // btnOperadoresDeElemento
             // 
             this.btnOperadoresDeElemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOperadoresDeElemento.Location = new System.Drawing.Point(621, 316);
+            this.btnOperadoresDeElemento.Location = new System.Drawing.Point(621, 317);
             this.btnOperadoresDeElemento.Name = "btnOperadoresDeElemento";
             this.btnOperadoresDeElemento.Size = new System.Drawing.Size(208, 34);
             this.btnOperadoresDeElemento.TabIndex = 7;
@@ -122,11 +123,23 @@
             this.btnOperadoresDeElemento.UseVisualStyleBackColor = true;
             this.btnOperadoresDeElemento.Click += new System.EventHandler(this.btnOperadoresDeElemento_Click);
             // 
+            // btnLINQLambda
+            // 
+            this.btnLINQLambda.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLINQLambda.Location = new System.Drawing.Point(621, 368);
+            this.btnLINQLambda.Name = "btnLINQLambda";
+            this.btnLINQLambda.Size = new System.Drawing.Size(208, 34);
+            this.btnLINQLambda.TabIndex = 8;
+            this.btnLINQLambda.Text = "LINQ Lambda";
+            this.btnLINQLambda.UseVisualStyleBackColor = true;
+            this.btnLINQLambda.Click += new System.EventHandler(this.btnLINQLambda_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(841, 450);
+            this.Controls.Add(this.btnLINQLambda);
             this.Controls.Add(this.btnOperadoresDeElemento);
             this.Controls.Add(this.btnAgregacao);
             this.Controls.Add(this.btnGroupBy);
@@ -152,6 +165,7 @@
         private System.Windows.Forms.Button btnGroupBy;
         private System.Windows.Forms.Button btnAgregacao;
         private System.Windows.Forms.Button btnOperadoresDeElemento;
+        private System.Windows.Forms.Button btnLINQLambda;
     }
 }
 

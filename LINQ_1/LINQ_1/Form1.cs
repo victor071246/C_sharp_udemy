@@ -45,17 +45,17 @@ namespace LINQ_1
 
             #region Lista de Números
             lista_numeros = new List<int>();
-            //lista_numeros.Add(5);
-            //lista_numeros.Add(7);
-            //lista_numeros.Add(13);
-            //lista_numeros.Add(42);
-            //lista_numeros.Add(23);
-            //lista_numeros.Add(87);
-            //lista_numeros.Add(91);
-            //lista_numeros.Add(76);
-            //lista_numeros.Add(19);
-            //lista_numeros.Add(29);
-            //lista_numeros.Add(33);
+            lista_numeros.Add(5);
+            lista_numeros.Add(7);
+            lista_numeros.Add(13);
+            lista_numeros.Add(42);
+            lista_numeros.Add(23);
+            lista_numeros.Add(87);
+            lista_numeros.Add(91);
+            lista_numeros.Add(76);
+            lista_numeros.Add(19);
+            lista_numeros.Add(29);
+            lista_numeros.Add(33);
             #endregion
 
             #region Lista de Produtos
@@ -227,8 +227,49 @@ namespace LINQ_1
         {
             lista.Items.Clear();
 
+            // Também aplicado nas consultas.
             int primeiro = lista_numeros.FirstOrDefault();
             lista.Items.Add(primeiro);
+
+            int ultimo = lista_numeros.LastOrDefault();
+            lista.Items.Add(ultimo);
+
+            int elementoEm = lista_numeros.ElementAtOrDefault(3);
+            lista.Items.Add(elementoEm);
+
+            var consulta = from num in lista_numeros where num > 1000 select num;
+            int numero = consulta.FirstOrDefault();
+            lista.Items.Add(numero);
+
+        }
+
+        private void btnLINQLambda_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+            //var cons1 = from nome in lista_nomes select nome; // Método comum
+            //var cons1L = lista_nomes.Select(nome => nome);
+            //lista.Items.AddRange(cons1.ToArray());
+
+            //var cons2 = from nome in lista_nomes where nome.StartsWith("G") select nome;
+            //var cons2L = lista_nomes.Where((nome) => nome.StartsWith("G"));
+            //lista.Items.AddRange(cons2L.ToArray());
+
+            //var cons3 = from nome in lista_nomes orderby nome select nome;
+            //var cons3L = lista_nomes.OrderBy(nome => nome);
+            //var cons3L2 = lista_nomes.OrderByDescending(nome => nome);
+            //lista.Items.AddRange(cons3L.ToArray());
+
+            var cons4 =  from estado in lista_estados group estado by estado.Value;
+            var cons4L = lista_estados.GroupBy(estado => estado.Value);
+
+            foreach (var grupo in cons4L)
+            {
+                lista.Items.Add(grupo.Key);
+                foreach (var estado in grupo)
+                {
+                    lista.Items.Add("     " + estado.Key);
+                }
+            }
         }
     }
 }

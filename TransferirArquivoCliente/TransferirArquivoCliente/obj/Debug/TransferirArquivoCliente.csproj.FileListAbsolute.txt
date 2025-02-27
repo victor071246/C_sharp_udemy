@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\bin\Debug\TransferirArquivoCliente.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\bin\Debug\TransferirArquivoCliente.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\bin\Debug\TransferirArquivoCliente.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivoCliente\TransferirArquivoCliente\obj\Debug\TransferirArquivoCliente.pdb

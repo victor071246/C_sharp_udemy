@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\bin\Debug\TransferirArquivosServer.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\bin\Debug\TransferirArquivosServer.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\bin\Debug\TransferirArquivosServer.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\TransferirArquivosServer\TransferirArquivosServer\obj\Debug\TransferirArquivosServer.pdb

@@ -1,0 +1,7 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\bin\Debug\SocketCliente.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\bin\Debug\SocketCliente.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\bin\Debug\SocketCliente.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\obj\Debug\SocketCliente.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\obj\Debug\SocketCliente.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\obj\Debug\SocketCliente.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketCliente\SocketCliente\obj\Debug\SocketCliente.pdb

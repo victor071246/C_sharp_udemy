@@ -1,0 +1,7 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\SocketServer\SocketServer\obj\Debug\SocketServer.pdb

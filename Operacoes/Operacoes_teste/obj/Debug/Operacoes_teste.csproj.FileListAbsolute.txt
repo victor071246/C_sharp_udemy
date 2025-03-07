@@ -1,0 +1,6 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\bin\Debug\Operacoes_teste.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\bin\Debug\Operacoes_teste.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\obj\Debug\Operacoes_teste.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\obj\Debug\Operacoes_teste.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\obj\Debug\Operacoes_teste.dll
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\Operacoes\Operacoes_teste\obj\Debug\Operacoes_teste.pdb

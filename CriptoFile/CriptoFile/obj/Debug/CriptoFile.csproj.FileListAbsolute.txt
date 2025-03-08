@@ -1,0 +1,5 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\CriptoFile\CriptoFile\obj\Debug\CriptoFile.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\CriptoFile\CriptoFile\obj\Debug\CriptoFile.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\CriptoFile\CriptoFile\obj\Debug\CriptoFile.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\CriptoFile\CriptoFile\obj\Debug\CriptoFile.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\CriptoFile\CriptoFile\obj\Debug\CriptoFile.csproj.CoreCompileInputs.cache
